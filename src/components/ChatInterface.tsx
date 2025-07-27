@@ -114,7 +114,7 @@ const ChatInterface = () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${bearerToken}`,
+        'Authorization': bearerToken,
       },
       body: JSON.stringify(payload),
     });
