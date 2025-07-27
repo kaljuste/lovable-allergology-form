@@ -70,7 +70,7 @@ export const useVoiceRecording = () => {
       const response = await fetch(transcriptionUrl, {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${bearerToken}`,
+          'Authorization': bearerToken,
         },
         body: formData,
       });
