@@ -32,6 +32,7 @@ export interface WebhookPayload {
   model: string;
   sessionID: string;
   prompt: string;
+  admin_email: string;
 }
 
 export interface WebhookResponse {
